@@ -185,7 +185,7 @@ process.chdir = function (dir) {
 process.umask = function() { return 0; };
 
 },{}],2:[function(require,module,exports){
-module.exports = require('sentiment');
+globalThis.Sentiment = require('sentiment');
 console.log('Sentiment loaded');
 },{"sentiment":8}],3:[function(require,module,exports){
 module.exports={

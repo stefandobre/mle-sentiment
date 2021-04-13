@@ -1,2 +1,2 @@
-module.exports = require('sentiment');
+globalThis.Sentiment = require('sentiment');
 console.log('Sentiment loaded');
