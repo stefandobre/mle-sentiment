@@ -1,1 +1,1 @@
-const Sentiment = require('sentiment');
+globalThis.Sentiment = require('sentiment');
