@@ -186,7 +186,7 @@ process.umask = function() { return 0; };
 
 },{}],2:[function(require,module,exports){
 globalThis.Sentiment = require('sentiment');
-console.log('Sentiment loaded');
+console.log('Sentiment loaded', typeof globalThis.Sentiment, JSON.stringify(globalThis.Sentiment));
 },{"sentiment":8}],3:[function(require,module,exports){
 module.exports={
     "😂": 1,
