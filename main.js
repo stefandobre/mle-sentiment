@@ -1,1 +1,2 @@
-console.log('x', require('sentiment'));
+module.exports.Sentiment = require('sentiment');
+console.log('Sentiment loaded');
