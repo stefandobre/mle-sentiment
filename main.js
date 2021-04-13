@@ -1,2 +1,2 @@
-module.exports.Sentiment = require('sentiment');
+module.exports = require('sentiment');
 console.log('Sentiment loaded');
