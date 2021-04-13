@@ -1,1 +1,1 @@
-globalThis.Sentiment = require('sentiment');
+console.log('x', require('sentiment'));
